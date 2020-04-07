@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+extension Builder.Trips {
+    static func make() -> UINavigationConroller {
+        let viewModel = TripsV
+    }
+}
