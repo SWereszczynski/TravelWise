@@ -42,6 +42,14 @@
 		52F7B7E7243E066C0067A980 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7E6243E066C0067A980 /* Flow.swift */; };
 		52F7B7F1243E276A0067A980 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52F7B7F0243E276A0067A980 /* LaunchScreen.xib */; };
 		52F7B7F3243E2BCE0067A980 /* UISceenDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7F2243E2BCE0067A980 /* UISceenDelegate.swift */; };
+		52F7B817243E3B3F0067A980 /* CampTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B815243E3B3F0067A980 /* CampTableViewCell.swift */; };
+		52F7B818243E3B3F0067A980 /* CampTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52F7B816243E3B3F0067A980 /* CampTableViewCell.xib */; };
+		52F7B81B243E3C010067A980 /* UITableView+Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B81A243E3C010067A980 /* UITableView+Registration.swift */; };
+		52F7B81D243E3F3B0067A980 /* Driver+Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B81C243E3F3B0067A980 /* Driver+Log.swift */; };
+		52F7B81F243E3FDE0067A980 /* UITableViewCell+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B81E243E3FDE0067A980 /* UITableViewCell+Rx.swift */; };
+		52F7B821243E40470067A980 /* UIViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B820243E40470067A980 /* UIViewController+Rx.swift */; };
+		52F7B823243E40990067A980 /* UIAlertController+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B822243E40990067A980 /* UIAlertController+Error.swift */; };
+		52F7B825243E41DD0067A980 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B824243E41DD0067A980 /* Label.swift */; };
 		5AF121EC246FD84501D1ABF7 /* Pods_TravelWise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C744F7993181FF8EDCE13D8 /* Pods_TravelWise.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +93,14 @@
 		52F7B7E6243E066C0067A980 /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
 		52F7B7F0243E276A0067A980 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		52F7B7F2243E2BCE0067A980 /* UISceenDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISceenDelegate.swift; sourceTree = "<group>"; };
+		52F7B815243E3B3F0067A980 /* CampTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampTableViewCell.swift; sourceTree = "<group>"; };
+		52F7B816243E3B3F0067A980 /* CampTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CampTableViewCell.xib; sourceTree = "<group>"; };
+		52F7B81A243E3C010067A980 /* UITableView+Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Registration.swift"; sourceTree = "<group>"; };
+		52F7B81C243E3F3B0067A980 /* Driver+Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Driver+Log.swift"; sourceTree = "<group>"; };
+		52F7B81E243E3FDE0067A980 /* UITableViewCell+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Rx.swift"; sourceTree = "<group>"; };
+		52F7B820243E40470067A980 /* UIViewController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Rx.swift"; sourceTree = "<group>"; };
+		52F7B822243E40990067A980 /* UIAlertController+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Error.swift"; sourceTree = "<group>"; };
+		52F7B824243E41DD0067A980 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		8C744F7993181FF8EDCE13D8 /* Pods_TravelWise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelWise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -181,6 +197,7 @@
 		5236201E24324E65002AA33D /* Camps */ = {
 			isa = PBXGroup;
 			children = (
+				52F7B814243E3B1C0067A980 /* View */,
 				5236202724326DFA002AA33D /* FlowController */,
 				5236202024324EC4002AA33D /* ViewController */,
 				5236202124324ECC002AA33D /* ViewModel */,
@@ -280,9 +297,12 @@
 		52F7B7B3243DE6790067A980 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				52F7B819243E3B670067A980 /* UITableView */,
 				52F7B7E1243E060E0067A980 /* UIViewController */,
 				52F7B7B6243DE77F0067A980 /* URL */,
 				52F7B7B4243DE6950067A980 /* Bundle+Plist.swift */,
+				52F7B81C243E3F3B0067A980 /* Driver+Log.swift */,
+				52F7B822243E40990067A980 /* UIAlertController+Error.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -389,6 +409,7 @@
 			isa = PBXGroup;
 			children = (
 				52F7B7DF243E00C70067A980 /* View.swift */,
+				52F7B824243E41DD0067A980 /* Label.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -398,6 +419,7 @@
 			children = (
 				52F7B7E2243E062F0067A980 /* UIViewController+Flow.swift */,
 				52F7B7E4243E06530067A980 /* UINavigationController+Flow.swift */,
+				52F7B820243E40470067A980 /* UIViewController+Rx.swift */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -448,6 +470,24 @@
 				52F7B7F0243E276A0067A980 /* LaunchScreen.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		52F7B814243E3B1C0067A980 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B815243E3B3F0067A980 /* CampTableViewCell.swift */,
+				52F7B816243E3B3F0067A980 /* CampTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52F7B819243E3B670067A980 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B81A243E3C010067A980 /* UITableView+Registration.swift */,
+				52F7B81E243E3FDE0067A980 /* UITableViewCell+Rx.swift */,
+			);
+			path = UITableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -512,6 +552,7 @@
 			files = (
 				52F7B7F1243E276A0067A980 /* LaunchScreen.xib in Resources */,
 				5236201124324D4E002AA33D /* Assets.xcassets in Resources */,
+				52F7B818243E3B3F0067A980 /* CampTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,13 +617,18 @@
 				52F7B7B2243DE6550067A980 /* Environment.swift in Sources */,
 				52F7B7D8243DFE020067A980 /* CampsDataSource.swift in Sources */,
 				52F7B7C1243DEA410067A980 /* Keychain+Rx.swift in Sources */,
+				52F7B823243E40990067A980 /* UIAlertController+Error.swift in Sources */,
+				52F7B817243E3B3F0067A980 /* CampTableViewCell.swift in Sources */,
 				52F7B7CD243DED480067A980 /* Log.swift in Sources */,
 				52F7B7D5243DFD070067A980 /* NetworkingError.swift in Sources */,
 				52F7B7E5243E06530067A980 /* UINavigationController+Flow.swift in Sources */,
+				52F7B81D243E3F3B0067A980 /* Driver+Log.swift in Sources */,
+				52F7B81F243E3FDE0067A980 /* UITableViewCell+Rx.swift in Sources */,
 				52F7B7C4243DEA8A0067A980 /* Compose.swift in Sources */,
 				5236200824324D4E002AA33D /* AppDelegate.swift in Sources */,
 				5236203224327071002AA33D /* CampsBuilder.swift in Sources */,
 				52F7B7C6243DEAA70067A980 /* ForwardPipe.swift in Sources */,
+				52F7B81B243E3C010067A980 /* UITableView+Registration.swift in Sources */,
 				52F7B7A7243CDCC20067A980 /* BaseViewController.swift in Sources */,
 				5236202C2432702D002AA33D /* CampsViewController.swift in Sources */,
 				52F7B7BF243DE9F40067A980 /* Keychain.swift in Sources */,
@@ -592,10 +638,12 @@
 				5236203024327062002AA33D /* CampsViewModel.swift in Sources */,
 				52F7B7AC243DE3FC0067A980 /* Resource.swift in Sources */,
 				5236202524325243002AA33D /* AppFlowController.swift in Sources */,
+				52F7B821243E40470067A980 /* UIViewController+Rx.swift in Sources */,
 				52F7B7B5243DE6950067A980 /* Bundle+Plist.swift in Sources */,
 				52F7B7E0243E00C70067A980 /* View.swift in Sources */,
 				52F7B7B8243DE79C0067A980 /* URLRequest.swift in Sources */,
 				5236202A24326ED4002AA33D /* Builder.swift in Sources */,
+				52F7B825243E41DD0067A980 /* Label.swift in Sources */,
 				52F7B7C8243DEAC70067A980 /* Swift+FunctionalOperators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

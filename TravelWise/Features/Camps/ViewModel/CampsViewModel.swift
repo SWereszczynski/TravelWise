@@ -19,9 +19,9 @@ final class CampsViewModel {
     }
 
     struct Output {
+        let camps: Driver<[Camp]>
         let error: Driver<Error>
         let isLoading: Driver<Bool>
-        let isEmpty: Driver<Bool>
     }
     
     private let dataSource: CampsDataSource
@@ -34,9 +34,27 @@ final class CampsViewModel {
     
     func transform(input: Input) -> Output {
         let dataSource = self.dataSource
+        
+        let campsResponse = input.refreshTrigger
+            .startWith(())
+            .flatMapLatest { dataSource.fetchCamps().materialize() }
+            .share()
+        
+        let camps = campsResponse
+            .compactMap { $0.element }
+            .asDriverLogError()
+        
+        let error = campsResponse
+            .compactMap { $0.error }
+            .asDriverLogError()
+        
+        let isLoading = Observable.merge(input.refreshTrigger.startWith(()).map { _ in true },
+                                         campsResponse.map { _ in false })
+            .asDriverLogError()
 
-        return Output(error: Driver.empty(),
-                      isLoading: Driver.empty(),
-                      isEmpty: Driver.empty())
+        
+        return Output(camps: camps,
+                      error: error,
+                      isLoading: isLoading)
     }
 }

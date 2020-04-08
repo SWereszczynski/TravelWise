@@ -46,14 +46,15 @@ final class CampsViewController: BaseViewController {
     }
     
     private func setupTableView() {
-        tableView.rowHeight = 62
-        tableView.contentInset = UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 0)
-        tableView.separatorStyle = .singleLine
+//        tableView.rowHeight = .auto
+        tableView.contentInset = UIEdgeInsets(top: 4, left: 0, bottom: 4, right: 0)
+        tableView.separatorStyle = .none
         tableView.tableFooterView = UIView()
-        tableView.backgroundColor = .red
+        tableView.backgroundColor = .white
         tableView.refreshControl = refreshControl
         tableView.rx.setDelegate(self).disposed(by: viewModel.bag)
-//        tableView.register(cell: SearchAddressTableViewCell.self)
+        tableView.register(cell: CampTableViewCell.self)
+        refreshControl.beginRefreshing()
     }
     
     private func bindViewModel() {
@@ -61,19 +62,15 @@ final class CampsViewController: BaseViewController {
 
         let output = viewModel.transform(input: input)
         
-//        output.stacks
-//            .drive(tableView.rx.reusableItems(cellType: SearchAddressTableViewCell.self)) {  _, stack, cell in
-//                cell.render(stack, dark: true)
-//            }
-//          .disposed(by: viewModel.bag)
+        output.camps
+            .drive(tableView.rx.reusableItems(cellType: CampTableViewCell.self)) {  _, camp, cell in
+                cell.render(camp)
+            }
+          .disposed(by: viewModel.bag)
         
-//        output.error
-//            .drive(rx.showError)
-//            .disposed(by: viewModel.bag)
-//
-//        output.isLoading
-//            .drive(loadingView.rx.showBottomLoadingBar)
-//            .disposed(by: viewModel.bag)
+        output.error
+            .drive(rx.showError)
+            .disposed(by: viewModel.bag)
         
         output.isLoading
             .filter { $0 == false }
