@@ -47,7 +47,7 @@ struct Networking: NetworkingProtocol {
             log("\n🚁 Response:\(String(data: data, encoding: .utf8)!)")
         }
         if let error = error {
-            observable.onError(SavillsError(error: error))
+            observable.onError(AppError(error: error))
         } else if let httpResponse = response as? HTTPURLResponse, (200...300).contains(httpResponse.statusCode), let data = data {
             do {
                 let result = try resource.parse(data)
@@ -57,14 +57,14 @@ struct Networking: NetworkingProtocol {
                 log(error)
                 observable.onError(error)
             }
-        } else if let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 401 && httpResponse.url! != Endpoint.signIn.url {
+        } else if let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 401 {
             keychain.clear()
-            DispatchQueue.main.async { AppDelegate.delegate.appFlowController.setInitialState() }
+//            DispatchQueue.main.async { AppDelegate.delegate.appFlowController.setInitialState() }
         } else if let data = data {
-            let apiError = try? JSONDecoder().decode(WebServiceError.self, from: data)
-            observable.onError(apiError ?? WebServiceError.unknownServiceError)
+            let apiError = try? JSONDecoder().decode(NetworkingError.self, from: data)
+            observable.onError(apiError ?? NetworkingError.unknownServiceError)
         } else {
-            observable.onError(WebServiceError.unknownServiceError)
+            observable.onError(NetworkingError.unknownServiceError)
         }
     }
 }

@@ -9,14 +9,14 @@
 import Foundation
 
 enum Endpoint {
-    case trips
+    case camps
 }
 
 extension Endpoint {
     
     var url: URL {
         switch self {
-        case .trips:
+        case .camps:
             return URL(fileURLWithPath: "")
         }
     }

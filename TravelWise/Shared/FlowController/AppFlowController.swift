@@ -18,11 +18,11 @@ final class AppFlowController {
         window.backgroundColor = .white
         self.window = window
         window.makeKeyAndVisible()
-        showTrips()
+        showCamps()
     }
 
-    private func showTrips() {
-        rootController = Builder.Trips.make()
+    private func showCamps() {
+        rootController = Builder.Camps.make()
     }
 
     private func setupWindowRoot() {

@@ -1,5 +1,5 @@
 //
-//  TripsFlowController.swift
+//  CampsFlowController.swift
 //  TravelWise
 //
 //  Created by Szymon Wereszczynski on 30/03/2020.

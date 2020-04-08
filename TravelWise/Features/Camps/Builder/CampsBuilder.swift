@@ -1,5 +1,5 @@
 //
-//  TripsBuilder.swift
+//  CampsBuilder.swift
 //  TravelWise
 //
 //  Created by Szymon Wereszczynski on 30/03/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension Builder.Trips {
+extension Builder.Camps {
     static func make() -> UINavigationController {
 //        let viewModel = TripsV
         return UINavigationController()

@@ -15,10 +15,10 @@
 		5236201424324D4E002AA33D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5236201224324D4E002AA33D /* LaunchScreen.storyboard */; };
 		5236202524325243002AA33D /* AppFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236202424325243002AA33D /* AppFlowController.swift */; };
 		5236202A24326ED4002AA33D /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236202924326ED4002AA33D /* Builder.swift */; };
-		5236202C2432702D002AA33D /* TrpsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236202B2432702D002AA33D /* TrpsViewController.swift */; };
-		5236202E24327046002AA33D /* TripsFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236202D24327046002AA33D /* TripsFlowController.swift */; };
-		5236203024327062002AA33D /* TripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236202F24327062002AA33D /* TripsViewModel.swift */; };
-		5236203224327071002AA33D /* TripsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236203124327071002AA33D /* TripsBuilder.swift */; };
+		5236202C2432702D002AA33D /* CampsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236202B2432702D002AA33D /* CampsViewController.swift */; };
+		5236202E24327046002AA33D /* CampsFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236202D24327046002AA33D /* CampsFlowController.swift */; };
+		5236203024327062002AA33D /* CampsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236202F24327062002AA33D /* CampsViewModel.swift */; };
+		5236203224327071002AA33D /* CampsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236203124327071002AA33D /* CampsBuilder.swift */; };
 		52F7B7A7243CDCC20067A980 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7A6243CDCC20067A980 /* BaseViewController.swift */; };
 		52F7B7AA243DE3DA0067A980 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7A9243DE3DA0067A980 /* Networking.swift */; };
 		52F7B7AC243DE3FC0067A980 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7AB243DE3FC0067A980 /* Resource.swift */; };
@@ -28,6 +28,19 @@
 		52F7B7B5243DE6950067A980 /* Bundle+Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7B4243DE6950067A980 /* Bundle+Plist.swift */; };
 		52F7B7B8243DE79C0067A980 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7B7243DE79C0067A980 /* URLRequest.swift */; };
 		52F7B7BA243DE7C80067A980 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7B9243DE7C80067A980 /* URL.swift */; };
+		52F7B7BF243DE9F40067A980 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7BE243DE9F40067A980 /* Keychain.swift */; };
+		52F7B7C1243DEA410067A980 /* Keychain+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7C0243DEA410067A980 /* Keychain+Rx.swift */; };
+		52F7B7C4243DEA8A0067A980 /* Compose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7C3243DEA8A0067A980 /* Compose.swift */; };
+		52F7B7C6243DEAA70067A980 /* ForwardPipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7C5243DEAA70067A980 /* ForwardPipe.swift */; };
+		52F7B7C8243DEAC70067A980 /* Swift+FunctionalOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7C7243DEAC70067A980 /* Swift+FunctionalOperators.swift */; };
+		52F7B7CA243DEAD90067A980 /* TypeCompose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7C9243DEAD90067A980 /* TypeCompose.swift */; };
+		52F7B7CD243DED480067A980 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7CC243DED480067A980 /* Log.swift */; };
+		52F7B7D0243DEE220067A980 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7CF243DEE220067A980 /* AppError.swift */; };
+		52F7B7D3243DFBC30067A980 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7D2243DFBC30067A980 /* World.swift */; };
+		52F7B7D5243DFD070067A980 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7D4243DFD070067A980 /* NetworkingError.swift */; };
+		52F7B7D8243DFE020067A980 /* CampsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7D7243DFE020067A980 /* CampsDataSource.swift */; };
+		52F7B7DC243DFF130067A980 /* Camp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7DB243DFF130067A980 /* Camp.swift */; };
+		52F7B7E0243E00C70067A980 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7DF243E00C70067A980 /* View.swift */; };
 		5AF121EC246FD84501D1ABF7 /* Pods_TravelWise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C744F7993181FF8EDCE13D8 /* Pods_TravelWise.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,10 +57,10 @@
 		5236201524324D4E002AA33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5236202424325243002AA33D /* AppFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowController.swift; sourceTree = "<group>"; };
 		5236202924326ED4002AA33D /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
-		5236202B2432702D002AA33D /* TrpsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrpsViewController.swift; sourceTree = "<group>"; };
-		5236202D24327046002AA33D /* TripsFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsFlowController.swift; sourceTree = "<group>"; };
-		5236202F24327062002AA33D /* TripsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewModel.swift; sourceTree = "<group>"; };
-		5236203124327071002AA33D /* TripsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsBuilder.swift; sourceTree = "<group>"; };
+		5236202B2432702D002AA33D /* CampsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsViewController.swift; sourceTree = "<group>"; };
+		5236202D24327046002AA33D /* CampsFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsFlowController.swift; sourceTree = "<group>"; };
+		5236202F24327062002AA33D /* CampsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsViewModel.swift; sourceTree = "<group>"; };
+		5236203124327071002AA33D /* CampsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsBuilder.swift; sourceTree = "<group>"; };
 		52F7B7A6243CDCC20067A980 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		52F7B7A9243DE3DA0067A980 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		52F7B7AB243DE3FC0067A980 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
@@ -57,6 +70,19 @@
 		52F7B7B4243DE6950067A980 /* Bundle+Plist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Plist.swift"; sourceTree = "<group>"; };
 		52F7B7B7243DE79C0067A980 /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
 		52F7B7B9243DE7C80067A980 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		52F7B7BE243DE9F40067A980 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		52F7B7C0243DEA410067A980 /* Keychain+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keychain+Rx.swift"; sourceTree = "<group>"; };
+		52F7B7C3243DEA8A0067A980 /* Compose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compose.swift; sourceTree = "<group>"; };
+		52F7B7C5243DEAA70067A980 /* ForwardPipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardPipe.swift; sourceTree = "<group>"; };
+		52F7B7C7243DEAC70067A980 /* Swift+FunctionalOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+FunctionalOperators.swift"; sourceTree = "<group>"; };
+		52F7B7C9243DEAD90067A980 /* TypeCompose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCompose.swift; sourceTree = "<group>"; };
+		52F7B7CC243DED480067A980 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		52F7B7CF243DEE220067A980 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		52F7B7D2243DFBC30067A980 /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		52F7B7D4243DFD070067A980 /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		52F7B7D7243DFE020067A980 /* CampsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsDataSource.swift; sourceTree = "<group>"; };
+		52F7B7DB243DFF130067A980 /* Camp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camp.swift; sourceTree = "<group>"; };
+		52F7B7DF243E00C70067A980 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		8C744F7993181FF8EDCE13D8 /* Pods_TravelWise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelWise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -110,6 +136,8 @@
 		5236200624324D4E002AA33D /* TravelWise */ = {
 			isa = PBXGroup;
 			children = (
+				52F7B7D9243DFE720067A980 /* Entity */,
+				52F7B7D6243DFDE00067A980 /* DataSources */,
 				5236202224325227002AA33D /* Shared */,
 				5236201D24324E40002AA33D /* Features */,
 				52F7B7A8243DE3C60067A980 /* Networking */,
@@ -144,13 +172,13 @@
 		5236201D24324E40002AA33D /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				5236201E24324E65002AA33D /* Trips */,
-				5236201F24324E6B002AA33D /* TripDetails */,
+				5236201E24324E65002AA33D /* Camps */,
+				5236201F24324E6B002AA33D /* CampDetails */,
 			);
 			path = Features;
 			sourceTree = "<group>";
 		};
-		5236201E24324E65002AA33D /* Trips */ = {
+		5236201E24324E65002AA33D /* Camps */ = {
 			isa = PBXGroup;
 			children = (
 				5236202724326DFA002AA33D /* FlowController */,
@@ -158,20 +186,20 @@
 				5236202124324ECC002AA33D /* ViewModel */,
 				5236202624326DEF002AA33D /* Builder */,
 			);
-			path = Trips;
+			path = Camps;
 			sourceTree = "<group>";
 		};
-		5236201F24324E6B002AA33D /* TripDetails */ = {
+		5236201F24324E6B002AA33D /* CampDetails */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = TripDetails;
+			path = CampDetails;
 			sourceTree = "<group>";
 		};
 		5236202024324EC4002AA33D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5236202B2432702D002AA33D /* TrpsViewController.swift */,
+				5236202B2432702D002AA33D /* CampsViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -179,7 +207,7 @@
 		5236202124324ECC002AA33D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				5236202F24327062002AA33D /* TripsViewModel.swift */,
+				5236202F24327062002AA33D /* CampsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -187,6 +215,10 @@
 		5236202224325227002AA33D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				52F7B7DD243E00A00067A980 /* UI */,
+				52F7B7D1243DFBB80067A980 /* World */,
+				52F7B7CE243DEE140067A980 /* Error */,
+				52F7B7BB243DE9AD0067A980 /* Utilities */,
 				52F7B7A5243CDC8B0067A980 /* Base */,
 				5236202824326EB6002AA33D /* Builder */,
 				5236202324325230002AA33D /* FlowController */,
@@ -205,7 +237,7 @@
 		5236202624326DEF002AA33D /* Builder */ = {
 			isa = PBXGroup;
 			children = (
-				5236203124327071002AA33D /* TripsBuilder.swift */,
+				5236203124327071002AA33D /* CampsBuilder.swift */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -213,7 +245,7 @@
 		5236202724326DFA002AA33D /* FlowController */ = {
 			isa = PBXGroup;
 			children = (
-				5236202D24327046002AA33D /* TripsFlowController.swift */,
+				5236202D24327046002AA33D /* CampsFlowController.swift */,
 			);
 			path = FlowController;
 			sourceTree = "<group>";
@@ -262,6 +294,101 @@
 				52F7B7B9243DE7C80067A980 /* URL.swift */,
 			);
 			path = URL;
+			sourceTree = "<group>";
+		};
+		52F7B7BB243DE9AD0067A980 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7CB243DED3C0067A980 /* Log */,
+				52F7B7C2243DEA760067A980 /* Functional */,
+				52F7B7BC243DE9D00067A980 /* Keychain */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		52F7B7BC243DE9D00067A980 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7BE243DE9F40067A980 /* Keychain.swift */,
+				52F7B7C0243DEA410067A980 /* Keychain+Rx.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		52F7B7C2243DEA760067A980 /* Functional */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7C3243DEA8A0067A980 /* Compose.swift */,
+				52F7B7C5243DEAA70067A980 /* ForwardPipe.swift */,
+				52F7B7C7243DEAC70067A980 /* Swift+FunctionalOperators.swift */,
+				52F7B7C9243DEAD90067A980 /* TypeCompose.swift */,
+			);
+			path = Functional;
+			sourceTree = "<group>";
+		};
+		52F7B7CB243DED3C0067A980 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7CC243DED480067A980 /* Log.swift */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		52F7B7CE243DEE140067A980 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7CF243DEE220067A980 /* AppError.swift */,
+				52F7B7D4243DFD070067A980 /* NetworkingError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		52F7B7D1243DFBB80067A980 /* World */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7D2243DFBC30067A980 /* World.swift */,
+			);
+			path = World;
+			sourceTree = "<group>";
+		};
+		52F7B7D6243DFDE00067A980 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7D7243DFE020067A980 /* CampsDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		52F7B7D9243DFE720067A980 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7DA243DFF050067A980 /* Camp */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		52F7B7DA243DFF050067A980 /* Camp */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7DB243DFF130067A980 /* Camp.swift */,
+			);
+			path = Camp;
+			sourceTree = "<group>";
+		};
+		52F7B7DD243E00A00067A980 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7DE243E00B40067A980 /* Style */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		52F7B7DE243E00B40067A980 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7DF243E00C70067A980 /* View.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,24 +506,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F7B7D3243DFBC30067A980 /* World.swift in Sources */,
 				52F7B7B0243DE4630067A980 /* Endpoint.swift in Sources */,
-				5236202E24327046002AA33D /* TripsFlowController.swift in Sources */,
+				5236202E24327046002AA33D /* CampsFlowController.swift in Sources */,
 				52F7B7AA243DE3DA0067A980 /* Networking.swift in Sources */,
 				52F7B7AE243DE41D0067A980 /* CustomDecoder.swift in Sources */,
+				52F7B7D0243DEE220067A980 /* AppError.swift in Sources */,
+				52F7B7CA243DEAD90067A980 /* TypeCompose.swift in Sources */,
 				52F7B7B2243DE6550067A980 /* Environment.swift in Sources */,
+				52F7B7D8243DFE020067A980 /* CampsDataSource.swift in Sources */,
+				52F7B7C1243DEA410067A980 /* Keychain+Rx.swift in Sources */,
+				52F7B7CD243DED480067A980 /* Log.swift in Sources */,
+				52F7B7D5243DFD070067A980 /* NetworkingError.swift in Sources */,
 				5236200C24324D4E002AA33D /* ViewController.swift in Sources */,
+				52F7B7C4243DEA8A0067A980 /* Compose.swift in Sources */,
 				5236200824324D4E002AA33D /* AppDelegate.swift in Sources */,
-				5236203224327071002AA33D /* TripsBuilder.swift in Sources */,
+				5236203224327071002AA33D /* CampsBuilder.swift in Sources */,
 				5236200A24324D4E002AA33D /* SceneDelegate.swift in Sources */,
+				52F7B7C6243DEAA70067A980 /* ForwardPipe.swift in Sources */,
 				52F7B7A7243CDCC20067A980 /* BaseViewController.swift in Sources */,
-				5236202C2432702D002AA33D /* TrpsViewController.swift in Sources */,
+				5236202C2432702D002AA33D /* CampsViewController.swift in Sources */,
+				52F7B7BF243DE9F40067A980 /* Keychain.swift in Sources */,
 				52F7B7BA243DE7C80067A980 /* URL.swift in Sources */,
-				5236203024327062002AA33D /* TripsViewModel.swift in Sources */,
+				52F7B7DC243DFF130067A980 /* Camp.swift in Sources */,
+				5236203024327062002AA33D /* CampsViewModel.swift in Sources */,
 				52F7B7AC243DE3FC0067A980 /* Resource.swift in Sources */,
 				5236202524325243002AA33D /* AppFlowController.swift in Sources */,
 				52F7B7B5243DE6950067A980 /* Bundle+Plist.swift in Sources */,
+				52F7B7E0243E00C70067A980 /* View.swift in Sources */,
 				52F7B7B8243DE79C0067A980 /* URLRequest.swift in Sources */,
 				5236202A24326ED4002AA33D /* Builder.swift in Sources */,
+				52F7B7C8243DEAC70067A980 /* Swift+FunctionalOperators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
