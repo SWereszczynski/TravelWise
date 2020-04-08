@@ -6,8 +6,22 @@
 //  Copyright © 2020 Szymon Wereszczynski. All rights reserved.
 //
 
-import Foundation
+import RxSwift
+import RxCocoa
 
-final class TripsViewModel: BaseViewController {
+final class TripsViewModel {
 
+    enum Route {
+    }
+
+    struct Input {
+        let refreshTrigger: Observable<Void>
+    }
+
+    struct Output {
+        let error: Driver<Error>
+        let isLoading: Driver<Bool>
+        let isEmpty: Driver<Bool>
+    }
+    
 }

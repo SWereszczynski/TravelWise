@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,9 +19,21 @@
 		5236202E24327046002AA33D /* TripsFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236202D24327046002AA33D /* TripsFlowController.swift */; };
 		5236203024327062002AA33D /* TripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236202F24327062002AA33D /* TripsViewModel.swift */; };
 		5236203224327071002AA33D /* TripsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236203124327071002AA33D /* TripsBuilder.swift */; };
+		52F7B7A7243CDCC20067A980 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7A6243CDCC20067A980 /* BaseViewController.swift */; };
+		52F7B7AA243DE3DA0067A980 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7A9243DE3DA0067A980 /* Networking.swift */; };
+		52F7B7AC243DE3FC0067A980 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7AB243DE3FC0067A980 /* Resource.swift */; };
+		52F7B7AE243DE41D0067A980 /* CustomDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7AD243DE41D0067A980 /* CustomDecoder.swift */; };
+		52F7B7B0243DE4630067A980 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7AF243DE4630067A980 /* Endpoint.swift */; };
+		52F7B7B2243DE6550067A980 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7B1243DE6550067A980 /* Environment.swift */; };
+		52F7B7B5243DE6950067A980 /* Bundle+Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7B4243DE6950067A980 /* Bundle+Plist.swift */; };
+		52F7B7B8243DE79C0067A980 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7B7243DE79C0067A980 /* URLRequest.swift */; };
+		52F7B7BA243DE7C80067A980 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B7B9243DE7C80067A980 /* URL.swift */; };
+		5AF121EC246FD84501D1ABF7 /* Pods_TravelWise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C744F7993181FF8EDCE13D8 /* Pods_TravelWise.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33DE50194469471210D1E245 /* Pods-TravelWise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelWise.debug.xcconfig"; path = "Target Support Files/Pods-TravelWise/Pods-TravelWise.debug.xcconfig"; sourceTree = "<group>"; };
+		4F24BE1CC639E6ACBF1E8DAD /* Pods-TravelWise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelWise.release.xcconfig"; path = "Target Support Files/Pods-TravelWise/Pods-TravelWise.release.xcconfig"; sourceTree = "<group>"; };
 		5236200424324D4E002AA33D /* TravelWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5236200724324D4E002AA33D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5236200924324D4E002AA33D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +48,16 @@
 		5236202D24327046002AA33D /* TripsFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsFlowController.swift; sourceTree = "<group>"; };
 		5236202F24327062002AA33D /* TripsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewModel.swift; sourceTree = "<group>"; };
 		5236203124327071002AA33D /* TripsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsBuilder.swift; sourceTree = "<group>"; };
+		52F7B7A6243CDCC20067A980 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		52F7B7A9243DE3DA0067A980 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		52F7B7AB243DE3FC0067A980 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		52F7B7AD243DE41D0067A980 /* CustomDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecoder.swift; sourceTree = "<group>"; };
+		52F7B7AF243DE4630067A980 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		52F7B7B1243DE6550067A980 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		52F7B7B4243DE6950067A980 /* Bundle+Plist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Plist.swift"; sourceTree = "<group>"; };
+		52F7B7B7243DE79C0067A980 /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		52F7B7B9243DE7C80067A980 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		8C744F7993181FF8EDCE13D8 /* Pods_TravelWise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelWise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF121EC246FD84501D1ABF7 /* Pods_TravelWise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20FE434AD3BEFA8870071998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C744F7993181FF8EDCE13D8 /* Pods_TravelWise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		307EC59AF65AB4D81D67004F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33DE50194469471210D1E245 /* Pods-TravelWise.debug.xcconfig */,
+				4F24BE1CC639E6ACBF1E8DAD /* Pods-TravelWise.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		52361FFB24324D4D002AA33D = {
 			isa = PBXGroup;
 			children = (
 				5236200624324D4E002AA33D /* TravelWise */,
 				5236200524324D4E002AA33D /* Products */,
+				307EC59AF65AB4D81D67004F /* Pods */,
+				20FE434AD3BEFA8870071998 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,7 +112,9 @@
 			children = (
 				5236202224325227002AA33D /* Shared */,
 				5236201D24324E40002AA33D /* Features */,
+				52F7B7A8243DE3C60067A980 /* Networking */,
 				5236201C24324E1B002AA33D /* Resources */,
+				52F7B7B3243DE6790067A980 /* Extension */,
 				5236201B24324E00002AA33D /* SupportingFiles */,
 				5236200924324D4E002AA33D /* SceneDelegate.swift */,
 				5236200B24324D4E002AA33D /* ViewController.swift */,
@@ -143,6 +187,7 @@
 		5236202224325227002AA33D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				52F7B7A5243CDC8B0067A980 /* Base */,
 				5236202824326EB6002AA33D /* Builder */,
 				5236202324325230002AA33D /* FlowController */,
 			);
@@ -181,6 +226,44 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		52F7B7A5243CDC8B0067A980 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7A6243CDCC20067A980 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		52F7B7A8243DE3C60067A980 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7A9243DE3DA0067A980 /* Networking.swift */,
+				52F7B7AB243DE3FC0067A980 /* Resource.swift */,
+				52F7B7AD243DE41D0067A980 /* CustomDecoder.swift */,
+				52F7B7AF243DE4630067A980 /* Endpoint.swift */,
+				52F7B7B1243DE6550067A980 /* Environment.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		52F7B7B3243DE6790067A980 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7B6243DE77F0067A980 /* URL */,
+				52F7B7B4243DE6950067A980 /* Bundle+Plist.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		52F7B7B6243DE77F0067A980 /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B7B7243DE79C0067A980 /* URLRequest.swift */,
+				52F7B7B9243DE7C80067A980 /* URL.swift */,
+			);
+			path = URL;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5236201824324D4E002AA33D /* Build configuration list for PBXNativeTarget "TravelWise" */;
 			buildPhases = (
+				06AD2CE06701BB98C28EADF1 /* [CP] Check Pods Manifest.lock */,
 				5236200024324D4E002AA33D /* Sources */,
 				5236200124324D4E002AA33D /* Frameworks */,
 				5236200224324D4E002AA33D /* Resources */,
+				7B29D4BFFF9EDCCE7C9AD224 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,19 +332,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06AD2CE06701BB98C28EADF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelWise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B29D4BFFF9EDCCE7C9AD224 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelWise/Pods-TravelWise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelWise/Pods-TravelWise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelWise/Pods-TravelWise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5236200024324D4E002AA33D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F7B7B0243DE4630067A980 /* Endpoint.swift in Sources */,
 				5236202E24327046002AA33D /* TripsFlowController.swift in Sources */,
+				52F7B7AA243DE3DA0067A980 /* Networking.swift in Sources */,
+				52F7B7AE243DE41D0067A980 /* CustomDecoder.swift in Sources */,
+				52F7B7B2243DE6550067A980 /* Environment.swift in Sources */,
 				5236200C24324D4E002AA33D /* ViewController.swift in Sources */,
 				5236200824324D4E002AA33D /* AppDelegate.swift in Sources */,
 				5236203224327071002AA33D /* TripsBuilder.swift in Sources */,
 				5236200A24324D4E002AA33D /* SceneDelegate.swift in Sources */,
+				52F7B7A7243CDCC20067A980 /* BaseViewController.swift in Sources */,
 				5236202C2432702D002AA33D /* TrpsViewController.swift in Sources */,
+				52F7B7BA243DE7C80067A980 /* URL.swift in Sources */,
 				5236203024327062002AA33D /* TripsViewModel.swift in Sources */,
+				52F7B7AC243DE3FC0067A980 /* Resource.swift in Sources */,
 				5236202524325243002AA33D /* AppFlowController.swift in Sources */,
+				52F7B7B5243DE6950067A980 /* Bundle+Plist.swift in Sources */,
+				52F7B7B8243DE79C0067A980 /* URLRequest.swift in Sources */,
 				5236202A24326ED4002AA33D /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/TravelWise/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -390,6 +527,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/TravelWise/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -402,10 +540,11 @@
 		};
 		5236201924324D4E002AA33D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DE50194469471210D1E245 /* Pods-TravelWise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TravelWise/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TravelWise/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -419,10 +558,11 @@
 		};
 		5236201A24324D4E002AA33D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F24BE1CC639E6ACBF1E8DAD /* Pods-TravelWise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TravelWise/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TravelWise/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

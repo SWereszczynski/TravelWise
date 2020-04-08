@@ -6,10 +6,11 @@
 //  Copyright © 2020 Szymon Wereszczynski. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension Builder.Trips {
-    static func make() -> UINavigationConroller {
-        let viewModel = TripsV
+    static func make() -> UINavigationController {
+//        let viewModel = TripsV
+        return UINavigationController()
     }
 }
