@@ -50,7 +50,7 @@ final class CampsViewController: BaseViewController {
         tableView.contentInset = UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 0)
         tableView.separatorStyle = .singleLine
         tableView.tableFooterView = UIView()
-        tableView.backgroundColor = .white
+        tableView.backgroundColor = .red
         tableView.refreshControl = refreshControl
         tableView.rx.setDelegate(self).disposed(by: viewModel.bag)
 //        tableView.register(cell: SearchAddressTableViewCell.self)
